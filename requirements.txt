@@ -1,0 +1,19 @@
+# make sure you python updated to 3.10
+# anything above 3.5 should work
+Flask==2.0.2
+
+# Data and workers.
+redis==3.5.3
+celery==4.4.7
+
+# Forms.
+Flask-WTF==1.0.0
+WTForms-Components==0.10.5
+
+SQLAlchemy==1.4.28
+
+# Testing and static analysis.
+pytest==6.2.5
+
+# Flower Dashboard
+flower==0.9.7
